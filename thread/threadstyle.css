@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  }
+body {
+  font-family: Open Sans;
+}
+        /*forum-head*/
+        
+        .forum-head {
+            clear: both;
+        }
+        
+        .forum-head-left {
+            float: left;
+        }
+        
+        .forum-head-right {
+            float: left;
+            margin-left: 6px;
+        }
+        
+        /*thread*/
+        
+  .container {
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #DDD;
+    background-color: #DDD;
+  }
+        
+  .thread-header {
+    clear: both;
+    background-color: white;
+    overflow: auto;
+  }
+
+  .thread-header-left {
+    width: 70%;
+    padding-top: 25px;
+    padding-left: 30px;
+    background-color: white;
+    float: left;
+    
+  }
+
+  .thread-header-right {
+    width: 30%;
+    padding-top: 25px;
+    padding-right: 30px;
+    background-color: white;
+    float: left;
+  }
+
+  .create-container {
+    clear: both;
+    background-color: white;
+    overflow: auto;
+
+  }
+
+.create-container-left {
+    width: 90%;
+    padding-top: 25px;
+    padding-left: 65px;
+    padding-bottom: 25px;
+    background-color: white;
+    float: left;
+}
+  .container-post {
+    background-color: #343A40;
+    font-color: #FFF;
+    overflow: auto;
+    clear: both;
+  }
+
+  .middle {
+    background-color: #343A40;
+    color: white;
+    padding: 15px;
+    width: 20%;
+    height: 150px;
+    float: left;
+  }
+
+  .profile-avatar {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .avatar img{
+    width: 100%;
+    height: auto;
+
+  }
+
+  .right {
+    background-color: white;
+    width: 80%;
+    float: left;
+  }
+
+  .right-top {
+    clear: both;
+    display: inline;
+  }
+
+  .right-top-containers {
+    background-color: white;
+    width: calc(100%/3);
+    float: left;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .right-bottom {
+    clear: both;
+    background-color: white;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+button {
+  border: none;
+  background-color: #FFF;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding: 5px 5px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+#create {
+  background-color: white;
+  padding: 5px 24px;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+}
+
+
+.red-bullet{
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.yellow-bullet{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.green-bullet{
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+}

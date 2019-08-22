@@ -1,0 +1,132 @@
+body {
+  background-color: white;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.profileImage {
+  margin: 0 auto;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profileImage img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  background-color: #FFF;
+}
+
+.divContainer {
+  text-align: center;
+  background: #FFF;
+  margin: auto;
+  width: 75%;  
+}
+
+.form {
+  background-color: #FFF;
+  text-align:center;
+  margin: 0 auto;
+  padding: 25px;
+  width: 50%;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+}
+
+.right {
+  width: 60%;
+  float: right;
+  background: #FFF;
+}
+
+.left {
+  width: 40%;
+  float: left;
+  background: #FFF;
+}
+
+.form label { 
+  display: inline-block; 
+  float: right;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+
+}
+
+.form input { 
+  display: inline-block; 
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.radio-container {
+  clear: both;
+  background-color: #FFF;
+  overflow: auto;
+}
+
+.radio-container-right input {
+  float: left;
+  margin: 0 15px;
+}
+
+.conditions-container, .sym-container {
+  background-color: #FFF;
+  overflow: auto;
+  clear: both;
+}
+
+.radio-container-left, .conditions-containerL, .sym-containerL {
+  background: #FFF;
+  width:40%;
+  float: left;
+}
+
+.radio-container-right, .conditions-containerR, .sym-containerR {
+  width: 60%;
+  background: #FFF;
+  float: right;
+  text-align: left;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.conditions-containerR select, .sym-containerR select {
+  float: left;
+  margin-left: 5%;
+  width: 25%;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #FFF;
+  padding: 3px 16px;
+}
+
+#condP, #sym {
+  background-color: #FFF;
+  text-align: left;
+  padding-left: 15%;
+  font-size: 12px;
+}
+
+#buttonid, #buttonSym {
+  float: right;
+  margin-right: 50%;
+}
+.profile_page {
+    text-align: center;
+}

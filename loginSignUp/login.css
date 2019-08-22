@@ -1,0 +1,16 @@
+body, html{
+    /*height: 100%;*/
+}
+
+.outer-table{
+    display: table;
+    /*height: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+.form-login{
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align:middle;
+}
